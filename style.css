@@ -75,3 +75,42 @@ p{
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
 }
+.card {
+    width: 90%;
+    max-width: 400px;
+}
+.cityinput {
+    width: 90%;
+    max-width: 300px;
+}
+button[type="submit"] {
+    width: 90%;
+    max-width: 200px;
+}
+@media (max-width: 500px) {
+    .cityinput,
+    button[type="submit"] {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .citydisplay, .tempdisplay {
+        font-size: 2.5rem;
+    }
+
+    .descdisplay {
+        font-size: 1.5rem;
+    }
+
+    .weatheremoji {
+        font-size: 4rem;
+    }
+
+    .errordisplay {
+        font-size: 2rem;
+    }
+}
